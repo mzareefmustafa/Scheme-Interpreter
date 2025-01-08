@@ -6,14 +6,9 @@
 ;;;
 ;;; after the last test you wish to run.
 
-;;; ********************************
-;;; *** Add your own tests here! (Optional) ***
-;;; ********************************
+;;; 
 
-;;; These are examples from several sections of "The Structure
-;;; and Interpretation of Computer Programs" by Abelson and Sussman.
-
-;;; License: Creative Commons share alike with attribution
+;;; 
 
 ;;; 1.1.1
 
