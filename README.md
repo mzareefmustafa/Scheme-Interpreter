@@ -1,21 +1,41 @@
-# Scheme interpreter
+# 🌀 Scheme Interpreter  
 
-A robust Python-based system that interprets a specific subset of the Scheme language.
+A **Python-based Scheme interpreter** that evaluates expressions, supports user-defined functions, and runs in an interactive **REPL**.
 
-## Key Features
+## 🚀 Features  
 
-- **Parsing**: User input is parsed into the interpreter's internal Python representation of Scheme expressions.
-- **Evaluation**: Scheme expressions are evaluated to obtain values, following rules for call expressions and special forms.
-- **Application**: Built-in procedures are applied using the apply method, while user-defined procedures create a new call frame and recursively evaluate their body.
-- **Printing**: The obtained value is printed as a string representation.
-- **Looping**: The interpreter operates within a Read-Eval-Print Loop (REPL), handling user interactions.
+- **Evaluate Scheme expressions** like numbers, booleans, symbols, and lists.  
+- **Define and call functions** using `lambda` and `define`.  
+- **Handle special forms** like `if`, `cond`, `and`, `or`, and `let`.  
+- **Run interactive REPL** with support for `load` to execute Scheme scripts.  
+- **Supports Turtle Graphics** for drawing with Scheme!  
 
-## How to Run the Program
+## 🛠 How to Run  
 
-### Option 1: Run Locally
-1. Download the project files.
-2. Navigate to the main directory folder in your terminal.
-3. Run the program using: python3 scheme.py
+1️⃣ **Clone the repo:**  
+```sh
+git clone https://github.com/YOUR_GITHUB_USERNAME/scheme-interpreter.git  
+cd scheme-interpreter  
+```
 
-## Best files to view my work
-1. scheme_reader.py, scheme.py, questions.scm, and tests.scm
+2️⃣ **Start the interpreter:**
+```sh
+python3 scheme.py  
+```
+
+3️⃣ **Run a Scheme script:**
+```sh
+python3 scheme.py tests.scm   
+```
+
+4️⃣ **Run tests:**
+```sh
+python3 ok  
+```
+
+## 📂 Key Files 
+
+- **scheme.py** – The main interpreter (REPL, evaluator).
+- **scheme_reader.py** – Parses Scheme input.
+- **questions.scm** – Sample Scheme programs.
+- **tests.scm** – Test cases for validation.
