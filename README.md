@@ -7,14 +7,13 @@ A **Python-based Scheme interpreter** that evaluates expressions, supports user-
 - **Evaluate Scheme expressions** like numbers, booleans, symbols, and lists.  
 - **Define and call functions** using `lambda` and `define`.  
 - **Handle special forms** like `if`, `cond`, `and`, `or`, and `let`.  
-- **Run interactive REPL** with support for `load` to execute Scheme scripts.  
-- **Supports Turtle Graphics** for drawing with Scheme!  
+- **Run interactive REPL** with support for `load` to execute Scheme scripts. 
 
 ## 🛠 How to Run  
 
 1️⃣ **Clone the repo:**  
 ```sh
-git clone https://github.com/YOUR_GITHUB_USERNAME/scheme-interpreter.git  
+git clone https://github.com/mzareefmustafa/scheme-interpreter.git  
 cd scheme-interpreter  
 ```
 
